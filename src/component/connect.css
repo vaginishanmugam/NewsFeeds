@@ -1,0 +1,115 @@
+.ConnectCon{
+    margin:0px 0px 100px 0;
+    padding-top: 15%;
+
+}
+
+.ContentCon{
+    margin:0 auto 10px auto ;
+    display: flex;
+    color:white;
+    background-color: black;
+    width: fit-content;
+    border-radius: 100px;
+}
+
+.ContentCon > h1{
+
+    margin:0 auto;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.DevInfoCon{
+    display: flex;
+}
+.infoCon {
+    display: contents;
+}
+
+.DevCon{
+    border-radius: 10px;
+    backdrop-filter: blur(62px);
+    background: rgba(125, 125, 125, 0.124);
+    width: 40%;
+    margin: 0 auto;
+}
+.workingOn > p,.DevCon>h3,.infoCon>h2{
+    padding-left:35px;
+    padding-right: 35px;
+    color: white;
+}
+.workingOn {
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#head{
+    
+    padding-left:30px ;
+    margin: 0px;
+}
+#headOne{
+    padding-top: 20px;
+    padding-left:30px ;
+    margin: 0px;
+}
+.twitterHandle{
+    padding-left:30px;
+    padding-bottom: 30px;
+}
+.twtCon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    background-color: white;
+    width:max-content;
+    border-radius: 30px;
+}
+.twtCon > p{
+    padding: 0 25px 0 0;
+    color: black;
+    font-size: 14px;
+}
+.twtCon>img{
+    padding-left: 10px;
+    width:33px;
+}
+.socialCon{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    color: black;
+ text-decoration: none;
+}
+
+@media screen and (max-width:700px){
+    .ContentCon{
+        margin-top: 50px;
+    }
+    .ContentCon>h1{
+        font-size: 20px;
+    }
+    .workingOn > p,.DevCon>h3   {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .infoCon>h2{
+        padding-left: 60px;
+    }
+
+.DevCon{
+    border-radius: 10px;
+    backdrop-filter: blur(62px);
+    background: rgba(125, 125, 125, 0.124);
+    width: 60%;
+    min-width: 80%;
+    margin: 0 auto;
+}
+}
